@@ -5,7 +5,7 @@
 }
 .app{
   background: linear-gradient(to bottom, #d94d8a, #ffd267) border-box;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   padding-top: 8%;
 }
@@ -31,6 +31,7 @@
   grid-template-columns: 1fr 1fr;
   width: 70%;
   margin: auto;
+  height: 100%;
 }
 
 input {
@@ -49,5 +50,6 @@ input {
     display: flex;
     flex-direction: column;
     width: 80%;
+    height: 100%;
   }
 }
