@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  background: linear-gradient(to bottom, #d94d8a, #ffd267) border-box;
+  height: 100vh;
+  width: 100%;
+  padding-top: 8%;
+}
+
+.container {
+  border-radius: 2px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  height: 65px;
+  margin: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.container img {
+    width: 35px;
+    height: 40px;
+}
+
+.profile-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+}
+
+input {
+  height: 40px;
+  padding: 5px;
+  border-radius:2px;
+  width: 70%;
+  border:none;
+  display: flex;
+  margin: auto;
+  margin-bottom:5px
+}
+
+@media(max-width:480px) {
+  .profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
