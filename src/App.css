@@ -5,7 +5,7 @@
 }
 .app{
   background: linear-gradient(to bottom, #d94d8a, #ffd267) border-box;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding-top: 8%;
 }
