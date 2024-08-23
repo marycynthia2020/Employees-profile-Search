@@ -5,7 +5,7 @@ const Search = ({inputValue}) => {
     const [input, setInput] = useState("")
 
     const handleChange = (event) => {
-            const value = event.target.value
+            const value = event.target.value.toLowerCase()
               setInput(value)
               inputValue(value)
         }
