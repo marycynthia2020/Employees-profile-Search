@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-.app{
+body {
   background: linear-gradient(to bottom, #d94d8a, #ffd267) border-box;
+}
+.app{
+  
   height: 100vh;
   width: 100%;
   padding-top: 8%;
@@ -45,7 +48,7 @@ input {
   margin-bottom:5px
 }
 
-@media(max-width:480px) {
+@media(max-width:768px) {
   .profile-container{
     display: flex;
     flex-direction: column;
